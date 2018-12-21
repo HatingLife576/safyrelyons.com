@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #3d92c6;
+}
+
+h1{
+ color: white; 
+}
+nav{
+  background-color: #490451;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  border: 0;
+  left: 0;
+}
+
+a.head{
+  color: white;
+  background-color: #830d91;
+  text-decoration: none;
+  padding:10px;
+}
+
+div.front{
+  background-color: #3d92c6;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  border: 20px;
+  top: 40px;
+  left: 0;
+}
+
+div.about{
+ background-color: #c127e8;
+ position: absolute;
+ width: 100%;
+ overflow: hidden;
+ left: 0;
+  display:block;
+  top: 700px;
+}
+
+p.abouttxt{
+color: black;
+  text-align: center;
+  font-size: 24px;
+  font-family: Vernanda;
+}
+
+p.ah1{
+ color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: Vernanda;
+}
+
+p.name{
+  font-family: Vernanda;
+ text-align: center; 
+ font-size: 50px; 
+  color: #680346;
+}
+
+img.center{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 150px;
+}
+
+p.mytitles{
+ font-family: Vernanda;
+ text-align: center;
+ font-size: 30px;
+ color: #680346;
+}
+
+div.footer{
+  background-color: #1c1c1c;
+  font-size: 20px;
+  font-family: Vernanda;
+  color: #f7f7f7;
+  bottom: 0;
+   position: fixed;
+ width: 100%;
+ overflow: hidden;
+ left: 0;
+}
